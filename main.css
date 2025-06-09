@@ -1,11 +1,15 @@
 body, footer {
   font-family: Roboto, sans-serif;
   overflow-x: hidden;
-  background-color:  #181818;
+  background-color:  #1f1f1f;
 }
 
 .navbar {
   background-color: red ;
+}
+
+.navbar-toggler {
+    background-color: none;
 }
 
 nav .nav-link .active {
@@ -23,36 +27,23 @@ nav .nav-link .active {
   font-family: Montserrat, sans-serif, cursive;
 }
 
-section {
-  background-color: #49FFBD;
-}
-
 header {
-  background: linear-gradient(to right, #40989d, #49FFBD);
+  background: linear-gradient(to right, #239096, #49FFBD);
 }
 
 .container {
   display: block;
 }
 
-.animation-pulse {
-  animation: pulse 2s infinite;
-  color: #000;
-  width: 100%;
+#sobre { 
+  p {
+    text-align: justify;
+    padding-right: 2em;
+    padding-top: 1em;
+  }
 }
 
-@keyframes pulse {
-    0% {
-    transform: scale(1);
-    }
-    50% {
-    transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
-  }
-  
+
 .card-1 {
   color: #111;
   background-color: #4ef9ba;
@@ -101,8 +92,17 @@ h1, h2, p, h3, li, .nav-item-2 {
   color: #fff;
 }
 
+.custom-bg {
+    background-color: #f0f8ff; /* Substitua pela cor desejada */
+    color: #000; /* Ajuste a cor do texto se necessário */
+}
+
 .accordion-item{
   background-color: #000;
+  color: #26ffb0;
+}
+
+.form-label {
   color: #26ffb0;
 }
 
