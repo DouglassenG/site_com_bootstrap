@@ -8,8 +8,10 @@ body, footer {
   background-color: red ;
 }
 
-.navbar-toggler {
-    background-color: none;
+.custom-toggler {
+  background-color: transparent !important;
+  border: black; 
+  box-shadow: none;  
 }
 
 nav .nav-link .active {
