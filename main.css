@@ -8,6 +8,12 @@ body, footer {
   background-color: red ;
 }
 
+.custom-toggler:focus,
+.custom-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+
 .custom-toggler {
   background-color: transparent !important;
   border: black; 
