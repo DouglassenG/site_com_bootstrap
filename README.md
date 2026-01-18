@@ -15,7 +15,7 @@ Este repositório resolve o problema de criar um site do zero, utilizando uma ab
 
 ## 🖼️ Demonstração Visual
 
-*(Se o projeto estiver hospedado no GitHub Pages ou Vercel, insira o link aqui. Ex: [Ver Site Online](URL))*
+https://site-com-bootstrap-xi.vercel.app/
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -62,13 +62,7 @@ Este projeto é "Client-Side" estático, ideal para deploy simples.
     * Localize o arquivo `index.html`.
     * Dê um duplo clique para abrir no navegador.
     * *Dica:* Utilize o modo de inspeção do navegador (F12 -> Device Toolbar) para testar a responsividade em diferentes resoluções.
-
-## 💻 Uso e Exemplos
-
-O código destaca o uso correto das classes utilitárias do framework.
-
-**Exemplo de Grid Responsivo:**
-Este trecho mostra como criar uma seção onde os elementos ocupam larguras diferentes dependendo do dispositivo:
+    * 
 
 ```html
 <div class="container">
@@ -84,8 +78,7 @@ Este trecho mostra como criar uma seção onde os elementos ocupam larguras dife
         </div>
     </div>
 </div>
-
-
+```
 
 ## 📂 Estrutura de Arquivos
 
