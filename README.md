@@ -38,6 +38,55 @@ O site é estruturado como uma Landing Page institucional completa:
 3.  **Catálogo de Conteúdo:** Seção de produtos ou serviços organizada em Cards, utilizando o Grid System para alinhar 1 item por linha (mobile) ou 3/4 itens por linha (desktop).
 4.  **Formulários:** Interface de contato estilizada com classes nativas do framework (`form-control`).
 
+## 📦 Instalação e Execução
+
+Este projeto é "Client-Side" estático, ideal para deploy simples.
+
+### Pré-requisitos
+* Navegador Web moderno.
+* Conexão com a Internet (para carregar o CSS/JS do Bootstrap via CDN).
+
+### Passo a Passo
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/DouglassenG/site_com_bootstrap.git](https://github.com/DouglassenG/site_com_bootstrap.git)
+    ```
+
+2.  **Acesse o diretório:**
+    ```bash
+    cd site_com_bootstrap
+    ```
+
+3.  **Visualização:**
+    * Localize o arquivo `index.html`.
+    * Dê um duplo clique para abrir no navegador.
+    * *Dica:* Utilize o modo de inspeção do navegador (F12 -> Device Toolbar) para testar a responsividade em diferentes resoluções.
+
+## 💻 Uso e Exemplos
+
+O código destaca o uso correto das classes utilitárias do framework.
+
+**Exemplo de Grid Responsivo:**
+Este trecho mostra como criar uma seção onde os elementos ocupam larguras diferentes dependendo do dispositivo:
+
+```html
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <div class="card">...</div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">...</div>
+        </div>
+        <div class="col-12 col-lg-4">
+            <div class="card">...</div>
+        </div>
+    </div>
+</div>
+
+
+
 ## 📂 Estrutura de Arquivos
 
 A organização do projeto segue o padrão de sites estáticos, separando a estrutura (HTML) da estilização (CSS) e dos ativos (Imagens):
