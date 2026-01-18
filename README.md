@@ -62,7 +62,6 @@ Este projeto é "Client-Side" estático, ideal para deploy simples.
     * Localize o arquivo `index.html`.
     * Dê um duplo clique para abrir no navegador.
     * *Dica:* Utilize o modo de inspeção do navegador (F12 -> Device Toolbar) para testar a responsividade em diferentes resoluções.
-    * 
 
 ```html
 <div class="container">
